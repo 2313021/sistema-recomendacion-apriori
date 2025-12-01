@@ -1,5 +1,3 @@
-# Crear README.md
-@"
 # Sistema de Recomendación con Algoritmo Apriori
 
 ## 📋 Descripción
