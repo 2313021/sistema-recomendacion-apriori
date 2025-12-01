@@ -1,0 +1,29 @@
+# Crear archivo .gitignore
+@"
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos generados
+data/
+imagenes/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Entorno virtual
+venv_recomendacion/
+
+# Archivos grandes
+*.pkl
+*.h5
+*.model
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
